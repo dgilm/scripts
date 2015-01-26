@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROXY_IP="172.24.8.161"
-PROXY_PORT="3128"
+PROXY_IP="proxy_address"
+PROXY_PORT="proxy_port"
 
 CORKSCREW=`which corkscrew`
 if [ x$CORKSCREW == "x" ]; then
